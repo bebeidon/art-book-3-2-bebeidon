@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <view name="detailed,video">
+      <image name="logo">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </image>
+	  
+      <text name="logoText">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </text>
+	  
+      <text name="system-name" extra="true">
+         <pos>0.15 0.034375</pos>
+         <size>0.7 0.03125</size>
+         <text>${system.fullName}</text>
+         <alignment>center</alignment>
+         <fontSize>0.03125</fontSize>
+         <fontPath>${bodyFont}</fontPath>
+         <forceUppercase>true</forceUppercase>
+      </text> 
+	  
+      <image name="md_marquee">
+         <visible>true</visible>
+         <maxSize>0.25</maxSize>
+         <pos>0.735 0.2</pos>
+      </image>
+	  
+      <textlist name="gamelist">
+         <pos>0.02 0.12</pos>
+         <size>0.48 0.9</size>
+      </textlist>
+	  
+      <text name="md_lbl_releasedate">
+         <visible>true</visible>
+         <pos>0.53 0.84</pos>
+         <fontSize>0.035</fontSize>
+         <color>444444</color>
+      </text>
+	  
+      <datetime name="md_releasedate">
+         <visible>true</visible>
+         <pos>0.68 0.84</pos>
+         <size>0 0</size>
+         <fontSize>0.035</fontSize>
+         <color>FFFFFF55</color>
+      </datetime>
+	  
+      <text name="md_lbl_developer">
+         <visible>true</visible>
+         <pos>0.53 0.91</pos>
+         <fontSize>0.035</fontSize>
+      </text>
+	  
+      <text name="md_developer">
+         <visible>true</visible>
+         <pos>0.68 0.91</pos>
+         <size>0.325 0.065</size>
+         <fontPath>${bodyFont}</fontPath>
+         <fontSize>0.035</fontSize>
+         <color>FFFFFF55</color>
+      </text>	
+	  
+      <image name="md-media-mask" extra="true">
+         <path>./_inc/images/metadata-off.svg</path>
+      </image>
+      <image name="background" extra="true">
+         <color>232323</color>
+      </image>
+   </view>
+
+   <view name="grid">
+      <image name="background" extra="true">
+         <color>111111</color>
+      </image>
+   </view>
+
+</theme>
