@@ -22,8 +22,14 @@
          <pos>0.0625 .77</pos>
       </rating>
       <datetime name="md_releasedate">
-         <pos>0.2225 .77</pos>
+         <pos>0.215 .77</pos>
       </datetime>
+      <text name="md_developer">
+		 <visible>true</visible>
+         <pos>0.36 .77</pos>
+		 <size>0.15 0.05</size>
+		 <fontSize>0.03</fontSize>
+      </text>
       <text name="md_description">
          <pos>0.0625 .83</pos>
 		 <size>0.408333333333333 0.15</size>
