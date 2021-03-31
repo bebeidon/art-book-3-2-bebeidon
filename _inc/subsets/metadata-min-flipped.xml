@@ -37,9 +37,6 @@
       <image name="md_image">
          <pos>0.2625 0.52</pos>
       </image>
-      <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-min-flipped.svg</path>
-      </image>
 	   <image name="background" extra="true">
          <color>111111</color>
       </image>

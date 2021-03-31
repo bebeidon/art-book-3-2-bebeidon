@@ -19,6 +19,7 @@
          <fontSize>0.028125</fontSize>
          <fontPath>${bodyFont}</fontPath>
          <forceUppercase>true</forceUppercase>
+		 <color>FFFFFF99</color>
       </text>
    </view>
 

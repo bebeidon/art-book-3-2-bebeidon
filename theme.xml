@@ -53,8 +53,14 @@ license:        creative commons CC-BY-NC-SA
    </view>
 
    <view name="basic,detailed,video,grid">
-      <image name="background" extra="true">
-         <color>000000</color>
+      <image name="background-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
+         <tile>false</tile>
+         <color>ffffffcc</color>
+         <zIndex>2</zIndex>
       </image>
       <image name="logo">
          <origin>0.5 0.5</origin>
@@ -65,9 +71,6 @@ license:        creative commons CC-BY-NC-SA
          <pos>0.05 0.14</pos>
          <size>0.9 0.075</size>
          <fontSize>0.06</fontSize>
-         <color>ffffffcc</color>
-      </text>
-      <text name="system-name" extra="true">
          <color>ffffffcc</color>
       </text>
    </view>
@@ -88,11 +91,18 @@ license:        creative commons CC-BY-NC-SA
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
          <fontPath>${bodyFont}</fontPath>
          <horizontalMargin>0.008</horizontalMargin>
-         <selectorColor>222222</selectorColor>
+         <selectorColor>ffffff55</selectorColor>
          <selectedColor>ffffff</selectedColor>
-         <primaryColor>ffffff44</primaryColor>
-         <secondaryColor>ffffff44</secondaryColor>
+         <primaryColor>ffffffcc</primaryColor>
+         <secondaryColor>ffffffcc</secondaryColor>
       </textlist>
+	  <image name="md_gamelist_background" extra="true">
+         <path>./_inc/images/space.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+		 <size>1 1</size>
+		 <color>00000088</color>
+      </image>
    </view>
 
    <view name="detailed,video,grid">
@@ -106,7 +116,7 @@ license:        creative commons CC-BY-NC-SA
          <color>777777</color>
       </text>
       <text name="md_description">
-         <color>999999</color>
+         <color>ffffffcc</color>
       </text>
       <text name="md_lbl_lastplayed,md_lbl_playcount,md_playcount,md_lbl_developer,md_developer,md_lbl_publisher,md_publisher,md_lbl_gametime,md_gametime">
          <color>444444</color>
@@ -114,15 +124,21 @@ license:        creative commons CC-BY-NC-SA
       <datetime name="md_releasedate,md_lastplayed">
          <visible>false</visible>
          <fontPath>${bodyFont}</fontPath>
-         <color>444444</color>
+         <color>ffffffcc</color>
          <alignment>left</alignment>
       </datetime>
       <rating name="md_rating">
          <visible>false</visible>
          <fontPath>${bodyFont}</fontPath>
-         <color>444444</color>
+         <color>ffffffcc</color>
          <alignment>left</alignment>
       </rating>
+	  <text name="md_developer">
+		 <visible>false</visible>
+         <fontPath>${bodyFont}</fontPath>
+         <color>ffffffcc</color>
+         <alignment>left</alignment>
+      </text>
       <text name="md_spacer" extra="true">
          <color>222222</color>
       </text>
@@ -247,7 +263,7 @@ license:        creative commons CC-BY-NC-SA
          <alignment>left</alignment>
          <verticalAlignment>center</verticalAlignment>
          <fontPath>${bodyFont}</fontPath>
-         <color>FFFFFF55</color>
+         <color>FFFFFF99</color>
       </text>
       <batteryIndicator name="batteryIndicator">
          <pos>0.915 0.013</pos><!-- x=439.2 y=4.16 -->
@@ -259,7 +275,7 @@ license:        creative commons CC-BY-NC-SA
          <empty>./_inc/images/battery-0.svg</empty>
          <incharge>./_inc/images/battery-charging.svg</incharge>
          <networkIcon>./_inc/images/wifi.svg</networkIcon>
-         <color>FFFFFF55</color>
+         <color>FFFFFF99</color>
       </batteryIndicator>
       <controllerActivity name="controllerActivity">
          <visible>false</visible>
