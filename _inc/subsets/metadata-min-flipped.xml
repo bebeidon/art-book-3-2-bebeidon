@@ -14,8 +14,8 @@
       </text>
 	  <image name="md_marquee">
          <visible>true</visible>
-         <maxSize>0.25</maxSize>
-         <pos>0.265 0.2</pos>
+         <maxSize>0.38 0.28</maxSize>
+         <pos>0.265 0.21</pos>
       </image>
 	  
       <rating name="md_rating">
