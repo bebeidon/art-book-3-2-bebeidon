@@ -27,6 +27,7 @@
          <pos>0.6975 .762</pos>
          <size>0.1666666666666667 0.05</size>
          <fontSize>0.03</fontSize>
+		 <alignment>center</alignment>
       </datetime>
       <text name="md_description">
          <visible>true</visible>
