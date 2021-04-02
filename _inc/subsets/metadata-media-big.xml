@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+
+   <include>./metadata-on.xml</include>
+
+   <view name="detailed">
+      <image name="md_image">
+         <origin>0.5 0.5</origin>
+         <pos>0.75 0.546875</pos>
+         <maxSize>0.4791666666666667 0.71875</maxSize>
+      </image>
+   </view>
+
+   <view name="video,grid">
+   
+      <image name="background-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
+         <tile>false</tile>
+         <color>ffffffcc</color>
+		 <zIndex>2</zIndex>
+      </image>
+	  <image name="md_gamelist_background" extra="true">
+         <path>./_inc/images/space.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+		 <size>1 1</size>
+		 <color>00000088</color>
+      </image>
+	  
+      <image name="md_image">
+         <visible>true</visible>
+         <origin>1 1</origin>
+         <pos>1 1</pos>
+         <maxSize>0.35 0.35</maxSize>
+		 <horizontalAlignment>right</horizontalAlignment>
+      </image>
+      <video name="md_video">
+         <origin>1 1</origin>	  
+         <pos>1 1</pos>
+         <maxSize>0.7875 0.88125</maxSize>
+         <showSnapshotDelay>false</showSnapshotDelay>
+         <snapshotSource>image</snapshotSource>
+         <delay>0.0</delay>
+		 <zIndex>2</zIndex>
+      </video>
+   </view>
+
+   <view name="grid">
+      <image name="md_image">
+         <visible>false</visible>
+      </image>
+      <imagegrid name="gamegrid">
+	  	 <pos>0.01 0.15</pos>
+         <size>0.34 0.764</size>
+		 <autoLayout>2 2</autoLayout>
+      </imagegrid>
+   </view>
+
+</theme>
