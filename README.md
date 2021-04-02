@@ -7,6 +7,7 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 *System View*
 
 ![System View](https://i.imgur.com/1RGfbBP.png)
+![System View](https://i.imgur.com/YcAXv22.png)
 
 *Basic View*
 
