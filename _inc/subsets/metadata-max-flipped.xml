@@ -6,10 +6,6 @@
 
    <view name="detailed,video,grid">
 
-      <image name="md-media-mask" extra="true">
-         <path>./_inc/images/metadata-max-flipped.svg</path>
-      </image>
-
       <!-- Genre & Name -->
       <text name="md_genre">
          <pos>0.604166666666667 0.17</pos>
@@ -99,10 +95,12 @@
 
    <view name="video,grid">
       <image name="md_image">
-         <pos>0.05 0.925</pos>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
       </image>
       <video name="md_video">
-         <pos>0.3 0.546875</pos>
+         <origin>0 1</origin>
+         <pos>0 1</pos>
       </video>
    </view>
 

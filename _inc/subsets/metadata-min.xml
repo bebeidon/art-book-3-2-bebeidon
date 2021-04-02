@@ -5,50 +5,52 @@
    <include>./metadata-on.xml</include>
 
    <view name="detailed,video,grid">
-      <textlist name="gamelist">
-         <size>0.42 0.825</size>
-         <alignment>left</alignment>
-      </textlist>
       <text name="md_name">
-         <visible>true</visible>
-         <pos>0.5375 .685</pos>
-         <size>0.4 0.05</size>
-         <fontSize>0.036</fontSize>
+         <pos>1 1</pos>
       </text>
+	  <image name="md_marquee">
+         <visible>true</visible>
+         <maxSize>0.38 0.28</maxSize>
+         <pos>0.735 0.21</pos>
+      </image>
       <rating name="md_rating">
          <visible>true</visible>
-         <pos>0.5375 .762</pos>
+         <pos>0.5375 .77</pos>
          <size>0 0.04375</size>
          <filledPath>./_inc/images/star-filled.svg</filledPath>
          <unfilledPath>./_inc/images/star-empty.svg</unfilledPath>
       </rating>
       <datetime name="md_releasedate">
          <visible>true</visible>
-         <pos>0.6975 .762</pos>
+         <pos>0.6975 .77</pos>
          <size>0.1666666666666667 0.05</size>
          <fontSize>0.03</fontSize>
 		 <alignment>center</alignment>
       </datetime>
       <text name="md_description">
          <visible>true</visible>
-         <pos>0.5375 .825</pos>
+         <pos>0.5375 .83</pos>
          <size>0.4 0.1</size>
          <fontSize>0.03</fontSize>
       </text>
       <image name="md_image">
-         <pos>0.7375 0.414</pos>
+         <pos>0.7375 0.52</pos>
       </image>
    </view>
 
    <view name="video,grid">
       <video name="md_video">
-         <pos>0.7375 0.414</pos>
+         <pos>0.7375 0.52</pos>
       </video>
    </view>
 
    <view name="grid">
       <imagegrid name="gamegrid">
-         <size>0.425 0.764</size>
+         <pos>0.01 0.2</pos>
+         <autoLayout>3 2</autoLayout>
+		 <size>0.5 0.764</size>
+         <centerSelection>false</centerSelection>
+         <scrollDirection>vertical</scrollDirection>
       </imagegrid>
    </view>
 

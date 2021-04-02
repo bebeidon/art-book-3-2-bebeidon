@@ -54,12 +54,9 @@ license:        creative commons CC-BY-NC-SA
    </view>
 
    <view name="basic,detailed,video,grid">
-	  <image name="background" extra="true">
-         <color>111111</color>
-      </image>
       <image name="logo">
          <origin>0.5 0.5</origin>
-         <pos>0.5 0.18</pos>
+         <pos>0.5 0.11</pos>
          <maxSize>0.4 0.15</maxSize>
       </image>
       <text name="logoText">
@@ -68,19 +65,46 @@ license:        creative commons CC-BY-NC-SA
          <fontSize>0.06</fontSize>
          <color>ffffffcc</color>
       </text>
-   </view>
-
-   <view name="basic">
-      <image name="background" extra="true">
-         <color>111111</color>
+	  <image name="background-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
+         <tile>false</tile>
+         <color>ffffffcc</color>
+         <zIndex>2</zIndex>
+      </image>
+	  <image name="md_gamelist_background" extra="true">
+         <path>./_inc/images/space.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+		 <size>1 1</size>
+		 <color>00000088</color>
       </image>
    </view>
 
-   <view name="basic,detailed,video">
+   <view name="basic">
+      <textlist name="gamelist">
+         <pos>0 0.25</pos>
+         <size>1 0.72</size>
+		 <lineSpacing>1.5</lineSpacing>
+         <alignment>center</alignment>
+         <fontSize>0.04</fontSize>
+         <scrollSound>./_inc/sounds/select.wav</scrollSound>
+         <fontPath>${bodyFont}</fontPath>
+         <horizontalMargin>0.008</horizontalMargin>
+         <selectorColor>ffffff55</selectorColor>
+         <selectedColor>ffffff</selectedColor>
+         <primaryColor>ffffffcc</primaryColor>
+         <secondaryColor>ffffffcc</secondaryColor>
+      </textlist>
+   </view>
+   
+   <view name="detailed,video">
       <textlist name="gamelist">
          <pos>0.05 0.335</pos>
          <size>0.9 0.64</size>
-         <alignment>center</alignment>
+         <alignment>left</alignment>
          <lineSpacing>1.81</lineSpacing>
          <fontSize>0.04</fontSize>
          <scrollSound>./_inc/sounds/select.wav</scrollSound>
@@ -91,13 +115,6 @@ license:        creative commons CC-BY-NC-SA
          <primaryColor>ffffffcc</primaryColor>
          <secondaryColor>ffffffcc</secondaryColor>
       </textlist>
-	  <image name="md_gamelist_background" extra="true">
-         <path>./_inc/images/space.png</path>
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-		 <size>1 1</size>
-		 <color>00000088</color>
-      </image>
    </view>
 
    <view name="detailed,video,grid">
@@ -181,7 +198,10 @@ license:        creative commons CC-BY-NC-SA
       </image>
       <video name="md_video">
          <visible>false</visible>
-         <showSnapshotDelay>false</showSnapshotDelay>
+		 <showSnapshotDelay>true</showSnapshotDelay>
+         <showSnapshotNoVideo>true</showSnapshotNoVideo>
+         <snapshotSource>image</snapshotSource>
+         <snapshotSource>thumbnail</snapshotSource>
       </video>
       <imagegrid name="gamegrid">
          <pos>0.05 0.325</pos>
@@ -212,10 +232,10 @@ license:        creative commons CC-BY-NC-SA
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.036</fontSize>
          <lineSpacing>1.2</lineSpacing>
-         <color>111111</color>
+         <color>ffffff99</color>
       </text>
       <text name="gridtile_selected">
-         <color>cccccc</color>
+         <color>ffffff</color>
       </text>
    </view>
 
@@ -284,21 +304,20 @@ license:        creative commons CC-BY-NC-SA
    </subset>
    <subset name="metadata" displayName="Gamelist View Style">
       <include name="off" displayName="No Metadata">./_inc/subsets/metadata-off.xml</include>
+	  <include name="off-flipped" displayName="No Metadata (Flipped)">./_inc/subsets/metadata-off-flipped.xml</include>
       <include name="min" displayName="Minimum Metadata">./_inc/subsets/metadata-min.xml</include>
       <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_inc/subsets/metadata-min-flipped.xml</include>
       <include name="max" displayName="Maximum Metadata">./_inc/subsets/metadata-max.xml</include>
       <include name="max-flipped" displayName="Maximum Metadata (Flipped)">./_inc/subsets/metadata-max-flipped.xml</include>
       <include name="marquee" displayName="Marquee">./_inc/subsets/metadata-marquee.xml</include>
+	  <include name="marquee-flipped" displayName="Marquee (Flipped)">./_inc/subsets/metadata-marquee-flipped.xml</include>
 	  <include name="media-only" displayName="Media Only">./_inc/subsets/metadata-media-only.xml</include>
-      <include name="polymega" displayName="Polymega">./_inc/subsets/metadata-polymega.xml</include>
+	  <include name="media-only-flipped" displayName="Media Only (Flipped)">./_inc/subsets/metadata-media-only-flipped.xml</include>
+	  <include name="grid-only" displayName="Grid Only">./_inc/subsets/metadata-grid.xml</include>
    </subset>
    <subset name="game-count" displayName="Display Game Count">
       <include name="off" displayName="Off">./_inc/subsets/display-game-count-off.xml</include>
       <include name="on" displayName="On">./_inc/subsets/display-game-count-on.xml</include>
-   </subset>
-   <subset name="88-mph" displayName="1.21 GIGAWATTS!!">
-      <include name="off" displayName="Off">./_inc/subsets/88-mph-off.xml</include>
-      <include name="on" displayName="On">./_inc/subsets/88-mph-on.xml</include>
    </subset>
 
 </theme>

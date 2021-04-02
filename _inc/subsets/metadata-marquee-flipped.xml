@@ -15,7 +15,7 @@
       </text>
 	  
       <text name="system-name" extra="true">
-         <pos>0.15 0.03</pos>
+         <pos>0.85 0.03</pos>
          <size>0.7 0.03125</size>
          <text>${system.fullName}</text>
          <alignment>center</alignment>
@@ -28,24 +28,24 @@
       <image name="md_marquee">
          <visible>true</visible>
          <maxSize>0.38 0.28</maxSize>
-         <pos>0.735 0.22</pos>
+         <pos>0.265 0.22</pos>
       </image>
 	  
-      <textlist name="gamelist">
-         <pos>0.05 0.12</pos>
+	  <textlist name="gamelist">
+         <pos>0.5375 0.12</pos>
          <size>0.45 0.9</size>
       </textlist>
 	  
       <text name="md_lbl_releasedate">
          <visible>true</visible>
-         <pos>0.54 0.84</pos>
+         <pos>0.06 0.84</pos>
          <fontSize>0.035</fontSize>
          <color>ffffff99</color>
       </text>
 	  
       <datetime name="md_releasedate">
          <visible>true</visible>
-         <pos>0.69 0.84</pos>
+         <pos>0.21 0.84</pos>
          <size>0 0</size>
          <fontSize>0.035</fontSize>
          <color>ffffffcc</color>
@@ -53,24 +53,33 @@
 	  
       <text name="md_lbl_developer">
          <visible>true</visible>
-         <pos>0.54 0.91</pos>
+         <pos>0.06 0.91</pos>
          <fontSize>0.035</fontSize>
 		 <color>ffffff99</color>
       </text>
 	  
       <text name="md_developer">
          <visible>true</visible>
-         <pos>0.69 0.91</pos>
+         <pos>0.21 0.91</pos>
          <size>0.31 0.065</size>
          <fontPath>${bodyFont}</fontPath>
          <fontSize>0.035</fontSize>
          <color>ffffffcc</color>
       </text>
+	  <image name="md_image">
+         <pos>0.2625 0.58</pos>
+      </image>
+   </view>
+   
+   <view name="video,grid">
+      <video name="md_video">
+         <pos>0.2625 0.58</pos>
+      </video>
    </view>
 
    <view name="grid">
       <imagegrid name="gamegrid">
-         <pos>0.01 0.2</pos>
+         <pos>0.49 0.2</pos>
          <autoLayout>3 2</autoLayout>
 		 <size>0.5 0.764</size>
          <centerSelection>false</centerSelection>

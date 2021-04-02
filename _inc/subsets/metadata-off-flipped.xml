@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   
+   <include>./metadata-off.xml</include>
+
+   <view name="detailed,video">
+      <textlist name="gamelist">
+         <pos>0.5375 0.28</pos>
+      </textlist>
+	  <image name="md_image">
+         <pos>0.2625 0.578</pos>
+      </image>
+   </view>
+
+   <view name="video,grid">
+      <video name="md_video">
+         <pos>0.2625 0.578</pos>
+      </video>
+   </view>
+
+   <view name="grid">
+      <imagegrid name="gamegrid">
+         <pos>0.49 0.25</pos>
+		 <size>0.5 0.764</size>
+      </imagegrid>
+   </view>
+
+</theme>
