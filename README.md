@@ -68,10 +68,10 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 *Minimal Meta Flipped View*
 
 ![MinMetaFlipped View](https://i.imgur.com/Y8HuEkG.png)
-![MinMetaFlipped View](https://i.imgur.com/iXgOmW0.png)
 ![MinMetaFlipped View](https://i.imgur.com/i1eOlWK.png)
 ![MinMetaFlipped View](https://i.imgur.com/PJdl2Wr.png)
 ![MinMetaFlipped View](https://i.imgur.com/z4QiCap.png)
+![MinMetaFlipped View](https://i.imgur.com/iXgOmW0.png)
 
 *Maximal Meta View*
 
