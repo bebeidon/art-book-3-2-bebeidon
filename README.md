@@ -7,18 +7,87 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 *System View*
 
 ![System View](https://i.imgur.com/1RGfbBP.png)
+![System View](https://i.imgur.com/YcAXv22.png)
 
-*Video View*
+*Basic View*
 
-![Video View](https://i.imgur.com/21yeUMy.png)
+![Basic View](https://imgur.com/h0V8eyx.png)
 
-*Detailed View*
+*No Meta View*
 
-![Detailed View](https://i.imgur.com/QauSTJf.png)
+![NoMeta View](https://i.imgur.com/4TGkczw.png)
+![NoMeta View](https://i.imgur.com/hE9ZkLP.png)
+![NoMeta View](https://i.imgur.com/90cCjKX.png)
+![NoMeta View](https://i.imgur.com/B4jR3jL.png)
+![NoMeta View](https://i.imgur.com/8ausiua.png)
 
-*Grid View*
+*No Meta Flipped View*
 
-![Basic View](https://i.imgur.com/FbU32kX.png)
+![NoMetaFlipped View](https://i.imgur.com/B7fnJAk.png)
+![NoMetaFlipped View](https://i.imgur.com/03mThJs.png)
+![NoMetaFlipped View](https://i.imgur.com/UPBn7JN.png)
+![NoMetaFlipped View](https://i.imgur.com/SjnEFf4.png)
+![NoMetaFlipped View](https://i.imgur.com/0Uo4Ba0.png)
+
+*Media Big View*
+
+![MediaBig View](https://i.imgur.com/eoRnXA0.png)
+![MediaBig View](https://i.imgur.com/i1U9zIo.png)
+![MediaBig View](https://i.imgur.com/0oQ7Xbh.png)
+
+*Big Media Flipped View*
+
+![BigMediaFlipped View](https://i.imgur.com/xMyBAGJ.png)
+![BigMediaFlipped View](https://i.imgur.com/X39vdwf.png)
+![BigMediaFlipped View](https://i.imgur.com/P64NoHv.png)
+
+*Marquee View*
+
+![Marquee View](https://i.imgur.com/ymRZDgi.png)
+![Marquee View](https://i.imgur.com/Wo5Vu6Z.png)
+![Marquee View](https://i.imgur.com/FyYuIq1.png)
+![Marquee View](https://i.imgur.com/fiJJSMo.png)
+![Marquee View](https://i.imgur.com/ioTIBZH.png)
+
+*Marquee Flipped View*
+
+![MarqueeFlipped View](https://i.imgur.com/Us2IzHl.png)
+![MarqueeFlipped View](https://i.imgur.com/RqoDnSM.png)
+![MarqueeFlipped View](https://i.imgur.com/9kDVKdb.png)
+![MarqueeFlipped View](https://i.imgur.com/GLBvvv6.png)
+![MarqueeFlipped View](https://i.imgur.com/wFV5c1Z.png)
+
+*Minimal Meta View*
+
+![MinMeta View](https://i.imgur.com/V5Ay0Jd.png)
+![MinMeta View](https://i.imgur.com/qIFom0R.png)
+![MinMeta View](https://i.imgur.com/SxsKZxQ.png)
+![MinMeta View](https://i.imgur.com/QtkuQip.png)
+![MinMeta View](https://i.imgur.com/DGUAOX2.png)
+
+*Minimal Meta Flipped View*
+
+![MinMetaFlipped View](https://i.imgur.com/Y8HuEkG.png)
+![MinMetaFlipped View](https://i.imgur.com/iXgOmW0.png)
+![MinMetaFlipped View](https://i.imgur.com/i1eOlWK.png)
+![MinMetaFlipped View](https://i.imgur.com/PJdl2Wr.png)
+![MinMetaFlipped View](https://i.imgur.com/z4QiCap.png)
+
+*Maximal Meta View*
+
+![MaxMeta View](https://i.imgur.com/CgfVZkz.png)
+![MaxMeta View](https://i.imgur.com/FucGqWS.png)
+![MaxMeta View](https://i.imgur.com/3o8tsGn.png)
+
+*Maximal Meta Flipped View*
+
+![MaxMetaFlipped View](https://i.imgur.com/c109Nbe.png)
+![MaxMetaFlipped View](https://i.imgur.com/iueiyFm.png)
+![MaxMetaFlipped View](https://i.imgur.com/z5ASVAS.png)
+
+*Grid Only View*
+
+![GridOnly View](https://i.imgur.com/9jWqiau.png)
 
 
 ## Details
