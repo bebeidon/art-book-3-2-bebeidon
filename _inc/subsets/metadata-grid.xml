@@ -28,6 +28,17 @@
          <centerSelection>false</centerSelection>
          <scrollDirection>vertical</scrollDirection>
       </imagegrid>
+	  <gridtile name="default">
+         <padding>5 5</padding>
+         <backgroundCornerSize>0 0</backgroundCornerSize>
+         <selectionMode>image</selectionMode>
+         <backgroundColor>11111100</backgroundColor>
+         <imageColor>ffffffff</imageColor>
+      </gridtile>
+      <gridtile name="selected">
+         <backgroundColor>ffffffcc</backgroundColor>
+         <imageColor>ffffffff</imageColor>
+      </gridtile>	  
       <video name="md_video">
          <visible>false</visible>
       </video>

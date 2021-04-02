@@ -15,7 +15,7 @@
       </text>
 	  
       <text name="system-name" extra="true">
-         <pos>0.85 0.03</pos>
+         <pos>0.15 0.03</pos>
          <size>0.7 0.03125</size>
          <text>${system.fullName}</text>
          <alignment>center</alignment>

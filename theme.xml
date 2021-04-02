@@ -72,7 +72,6 @@ license:        creative commons CC-BY-NC-SA
          <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
          <tile>false</tile>
          <color>ffffffcc</color>
-         <zIndex>2</zIndex>
       </image>
 	  <image name="md_gamelist_background" extra="true">
          <path>./_inc/images/space.png</path>
@@ -114,6 +113,7 @@ license:        creative commons CC-BY-NC-SA
          <selectedColor>ffffff</selectedColor>
          <primaryColor>ffffffcc</primaryColor>
          <secondaryColor>ffffffcc</secondaryColor>
+		 <zIndex>30</zIndex>
       </textlist>
    </view>
 
@@ -164,12 +164,6 @@ license:        creative commons CC-BY-NC-SA
          <pos>0.7375 0.578</pos>
          <maxSize>0.4 0.45</maxSize>
       </image>
-      <image name="md-media-mask" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>3</zIndex>
-      </image>
    </view>
 
    <view name="video,grid">
@@ -188,7 +182,7 @@ license:        creative commons CC-BY-NC-SA
          <showSnapshotNoVideo>true</showSnapshotNoVideo>
          <snapshotSource>image</snapshotSource>
          <snapshotSource>thumbnail</snapshotSource>
-         <zIndex>2</zIndex>
+		 <zIndex>20</zIndex>
       </video>
    </view>
 

@@ -13,6 +13,24 @@
    </view>
 
    <view name="video,grid">
+   
+      <image name="background-art" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>./_inc/systems/${system.theme}-art-fs.jpg</path>
+         <tile>false</tile>
+         <color>ffffffcc</color>
+		 <zIndex>2</zIndex>
+      </image>
+	  <image name="md_gamelist_background" extra="true">
+         <path>./_inc/images/space.png</path>
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+		 <size>1 1</size>
+		 <color>00000088</color>
+      </image>
+	  
       <image name="md_image">
          <visible>true</visible>
          <origin>1 1</origin>
@@ -21,11 +39,13 @@
 		 <horizontalAlignment>right</horizontalAlignment>
       </image>
       <video name="md_video">
-         <pos>0.6979166666666667 0.56</pos>
+         <origin>1 1</origin>	  
+         <pos>1 1</pos>
          <maxSize>0.7875 0.88125</maxSize>
          <showSnapshotDelay>false</showSnapshotDelay>
          <snapshotSource>image</snapshotSource>
          <delay>0.0</delay>
+		 <zIndex>2</zIndex>
       </video>
    </view>
 
