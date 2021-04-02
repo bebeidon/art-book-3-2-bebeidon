@@ -29,11 +29,11 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 ![NoMetaFlipped View](https://i.imgur.com/SjnEFf4.png)
 ![NoMetaFlipped View](https://i.imgur.com/0Uo4Ba0.png)
 
-*Big Media View*
+*Media Big View*
 
-![BigMedia View](https://i.imgur.com/eoRnXA0.png)
-![BigMedia View](https://i.imgur.com/i1U9zIo.png)
-![BigMedia View](https://i.imgur.com/0oQ7Xbh.png)
+![MediaBig View](https://i.imgur.com/eoRnXA0.png)
+![MediaBig View](https://i.imgur.com/i1U9zIo.png)
+![MediaBig View](https://i.imgur.com/0oQ7Xbh.png)
 
 *Big Media Flipped View*
 
