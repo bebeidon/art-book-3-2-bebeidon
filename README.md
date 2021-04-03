@@ -15,11 +15,11 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 
 *No Meta View*
 
-![NoMeta View](https://i.imgur.com/4TGkczw.png)
-![NoMeta View](https://i.imgur.com/hE9ZkLP.png)
-![NoMeta View](https://i.imgur.com/90cCjKX.png)
-![NoMeta View](https://i.imgur.com/B4jR3jL.png)
-![NoMeta View](https://i.imgur.com/8ausiua.png)
+![NoMeta View](https://i.imgur.com/WKYz4At.png)
+![NoMeta View](https://i.imgur.com/K5QzZaC.png)
+![NoMeta View](https://i.imgur.com/q8WfTGG.png)
+![NoMeta View](https://i.imgur.com/smpTrxi.png)
+![NoMeta View](https://i.imgur.com/coJOfNN.png)
 
 *No Meta Flipped View*
 
@@ -46,8 +46,8 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 ![Marquee View](https://i.imgur.com/ymRZDgi.png)
 ![Marquee View](https://i.imgur.com/Wo5Vu6Z.png)
 ![Marquee View](https://i.imgur.com/FyYuIq1.png)
-![Marquee View](https://i.imgur.com/fiJJSMo.png)
-![Marquee View](https://i.imgur.com/ioTIBZH.png)
+![Marquee View](https://i.imgur.com/XcHi5jS.png)
+![Marquee View](https://i.imgur.com/1CezKkb.png)
 
 *Marquee Flipped View*
 
@@ -63,7 +63,7 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 ![MinMeta View](https://i.imgur.com/SxsKZxQ.png)
 ![MinMeta View](https://i.imgur.com/QtkuQip.png)
 ![MinMeta View](https://i.imgur.com/DGUAOX2.png)
-![MinMeta View](https://i.imgur.com/qIFom0R.png)
+![MinMeta View](https://i.imgur.com/rjQ2UMG.png)
 
 *Minimal Meta Flipped View*
 
