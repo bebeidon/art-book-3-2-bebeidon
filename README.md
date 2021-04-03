@@ -1,5 +1,7 @@
-# Art Book 3:2, an EmulationStation theme for 3:2 resolutions
-A simple theme for Emulation Station based on the look of a coffee table book.  Built and tested on 351Elec for the RG351P handheld.  Discussion for the base Art book theme is ongoing in this thread: https://retropie.org.uk/forum/topic/11728/new-theme-art-book
+# Alt Book 3:2, an EmulationStation theme for 3:2 resolutions
+
+This is an alternative version of Art Book:
+https://github.com/anthonycaccese/es-theme-art-book-3-2
 
 
 ## Preview
@@ -116,3 +118,6 @@ A simple theme for Emulation Station based on the look of a coffee table book.  
 - Full Screen Background Art created and provided by Szalik
 - Some logo graphics are modified from the Carbon theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
+- Thanks to Szalik for the new Alex Kidd Backgrounds for SEGA Master System
+- Thanks to Osysix for the new "Marquee"-Option
+- Of course also thanks to anthonycaccese the author of the original theme
