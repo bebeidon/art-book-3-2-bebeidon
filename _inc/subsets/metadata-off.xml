@@ -4,9 +4,9 @@
 
    <view name="detailed,video">
       <textlist name="gamelist">
-         <pos>0.05 0.28</pos>
-         <size>0.45 0.72</size>
-		 <lineSpacing>1.5</lineSpacing>
+         <pos>0.05 0.22</pos>
+         <size>0.45 0.75</size>
+		 <lineSpacing>1.6</lineSpacing>
       </textlist>
    </view>
 
