@@ -292,26 +292,26 @@ license:        creative commons CC-BY-NC-SA
    </view>
    
    <subset name="background-art" displayName="System View Style">
-      <include name="on" displayName="Centered Artwork">./_inc/subsets/background-art-on.xml</include>
       <include name="full-screen" displayName="Full Screen Artwork">./_inc/subsets/background-art-fullscreen.xml</include>
+      <include name="on" displayName="Centered Artwork">./_inc/subsets/background-art-on.xml</include>
       <include name="off" displayName="No Artwork">./_inc/subsets/background-art-off.xml</include>
    </subset>
    <subset name="metadata" displayName="Gamelist View Style">
-      <include name="off" displayName="No Metadata">./_inc/subsets/metadata-off.xml</include>
-	  <include name="off-flipped" displayName="No Metadata (Flipped)">./_inc/subsets/metadata-off-flipped.xml</include>
-	  <include name="media-big" displayName="Media Big">./_inc/subsets/metadata-media-big.xml</include>
-	  <include name="media-big-flipped" displayName="Media Big (Flipped)">./_inc/subsets/metadata-media-big-flipped.xml</include>
-	  <include name="marquee" displayName="Marquee">./_inc/subsets/metadata-marquee.xml</include>
-	  <include name="marquee-flipped" displayName="Marquee (Flipped)">./_inc/subsets/metadata-marquee-flipped.xml</include>
       <include name="min" displayName="Minimum Metadata">./_inc/subsets/metadata-min.xml</include>
       <include name="min-flipped" displayName="Minimum Metadata (Flipped)">./_inc/subsets/metadata-min-flipped.xml</include>
       <include name="max" displayName="Maximum Metadata">./_inc/subsets/metadata-max.xml</include>
       <include name="max-flipped" displayName="Maximum Metadata (Flipped)">./_inc/subsets/metadata-max-flipped.xml</include>
-	  <include name="grid-only" displayName="Grid Only">./_inc/subsets/metadata-grid.xml</include>
+      <include name="media-big" displayName="Media Big">./_inc/subsets/metadata-media-big.xml</include>
+      <include name="media-big-flipped" displayName="Media Big (Flipped)">./_inc/subsets/metadata-media-big-flipped.xml</include>
+      <include name="marquee" displayName="Marquee">./_inc/subsets/metadata-marquee.xml</include>
+      <include name="marquee-flipped" displayName="Marquee (Flipped)">./_inc/subsets/metadata-marquee-flipped.xml</include>
+      <include name="off" displayName="No Metadata">./_inc/subsets/metadata-off.xml</include>
+      <include name="off-flipped" displayName="No Metadata (Flipped)">./_inc/subsets/metadata-off-flipped.xml</include>
+      <include name="grid-only" displayName="Grid Only">./_inc/subsets/metadata-grid.xml</include>
    </subset>
    <subset name="game-count" displayName="Display Game Count">
-      <include name="off" displayName="Off">./_inc/subsets/display-game-count-off.xml</include>
       <include name="on" displayName="On">./_inc/subsets/display-game-count-on.xml</include>
+      <include name="off" displayName="Off">./_inc/subsets/display-game-count-off.xml</include>
    </subset>
 
 </theme>
