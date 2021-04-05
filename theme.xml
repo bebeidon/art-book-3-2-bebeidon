@@ -313,5 +313,9 @@ license:        creative commons CC-BY-NC-SA
       <include name="on" displayName="On">./_inc/subsets/display-game-count-on.xml</include>
       <include name="off" displayName="Off">./_inc/subsets/display-game-count-off.xml</include>
    </subset>
+      <subset name="font-size" displayName="Font Size">
+      <include name="small" displayName="small">./_inc/subsets/font-small.xml</include>
+      <include name="big" displayName="big">./_inc/subsets/font-big.xml</include>
+   </subset>
 
 </theme>

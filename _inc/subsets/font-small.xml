@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="basic,detailed,video">
+   
+   <textlist name="gamelist">
+         <lineSpacing>1.81</lineSpacing>
+         <fontSize>0.04</fontSize>
+      </textlist>
+
+   </view>
+</theme>

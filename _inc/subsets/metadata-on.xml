@@ -31,8 +31,8 @@
 
    <view name="detailed,video">
       <textlist name="gamelist">
-         <pos>0.05 0.12</pos>
-         <size>0.45 0.9</size>
+         <pos>0.02 0.12</pos>
+         <size>0.5 0.9</size>
       </textlist>
    </view>
 
