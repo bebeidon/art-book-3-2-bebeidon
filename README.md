@@ -10,7 +10,7 @@ https://github.com/anthonycaccese/es-theme-art-book-3-2
 
 ![System View](https://i.imgur.com/YcAXv22.png)
 
-*Big Font View now available*
+*Big Font View (available for all following Views)*
 
 ![BigFont View](https://i.imgur.com/otY8lvH.png)
 
