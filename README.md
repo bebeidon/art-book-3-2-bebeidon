@@ -99,20 +99,21 @@ https://github.com/anthonycaccese/es-theme-art-book-3-2
 
 - Built for 3:2 resolutions (specifically tested on the Anbernic RG351P running 351ELEC) 
 - System, basic, detailed, video and grid views are supported
-- Support for "All Games", "Favorites", "Last Played" and "Custom Collections"
+- Support for "All Games", "Favorites", "Last Played", "Never Played", "Retroachievements", "2-Player", "4-Player", "Vertical Arcade" and "Custom Collections"
 
 
 ## Configuration Options
 
-- Background Art: Toggle background art for system view under "UI Settings" > "Theme Configuration" > "Background Art" (video: https://youtu.be/YgpRxBTLgCU)
-  - Options:
-  - [Off] Don't display background art
-  - [Centered] Display centered background art
-  - [Full Screen] Display full screen background art (created by Szalik)
 - Metadata: Toggle metadata display for games view under "UI Settings" > "Theme Configuration" > "Metadata" (video: https://youtu.be/tCDM-nLCjQI)
   - Options:
   - [Off] Don't display game metadata
-  - [On] Display the following game metadata - Title, Description, Rating, Release Date
+  - [Marquee] Display the following game metadata - Release Date, Developer
+  - [Min] Display the following game metadata - Rating, Release Date, Description
+  - [Max] Display the following game metadata - Genre, Rating, Release Date, Last Played, # of Plays, Time played, Developer, Publisher, Description
+
+- Font Size: small or big
+
+Transistion Style: INSTANT is recommended for the best experience
 
 
 ## Acknowledgments
@@ -121,6 +122,7 @@ https://github.com/anthonycaccese/es-theme-art-book-3-2
 - Full Screen Background Art created and provided by Szalik
 - Some logo graphics are modified from the Carbon theme by Eric Hettervik
 - ChangaOne font by Eduardo Tunni
+
 - Thanks to Szalik for the new Alex Kidd Backgrounds for SEGA Master System
 - Thanks to Osysix for the new "Marquee"-Option
 - Of course also thanks to anthonycaccese the author of the original theme
