@@ -8,7 +8,6 @@ https://github.com/anthonycaccese/es-theme-art-book-3-2
 
 *System View*
 
-![System View](https://i.imgur.com/1RGfbBP.png)
 ![System View](https://i.imgur.com/YcAXv22.png)
 
 *Basic View*
