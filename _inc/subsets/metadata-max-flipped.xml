@@ -11,8 +11,8 @@
          <pos>0.604166666666667 0.17</pos>
       </text>
       <textlist name="gamelist">
-         <pos>0.604166666666667 0.19</pos>
-		 <size>0.35 0.09</size>
+	 <pos>0.604166666666667 0.19</pos>
+	 <size>0.38 0.09</size>
       </textlist>
 
       <!-- Rating & Release Date -->
